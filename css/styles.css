@@ -1,0 +1,1139 @@
+body{
+    font-family: 'Sarabun', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*header */
+/* top right bottom left*/
+
+.buttonlog{
+    margin: 0px 0px 0px 0px;
+    justify-content: right;
+    align-items: center;
+}
+.columnhead{
+    margin: 20px 20% 50px 20%;
+}
+.login-button{
+    background-color: black;
+    border: 3px solid #089216;
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px;
+    color:#089216;
+    margin: 0px 0px 0px 50px;
+}
+.login-button:hover{
+    background-color: #089216;
+    color: white;
+    text-decoration: none;
+}
+.regis-button{
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px;
+    color:white;
+    margin: 0px 0px 0px 10px;
+}
+.regis-button:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.divlang{
+    background-color: rgb(58, 58, 58);
+    border-radius: 20px;
+}
+
+
+.langen{
+    background-color: rgb(58, 58, 58);
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px;
+    color:white;
+    border: 0px;
+}
+.langen:hover{
+    background-color: #089216;
+    color: white;
+    text-decoration: none;
+}
+
+.columnnav{
+    padding: 0px 20% 70px 20%;
+    background-image: linear-gradient(180deg,#05630f 58%,#002504 100%);
+}
+
+.logo{
+  width: 300px;
+  height: 73px;
+}
+
+/* nav */
+.topmenu {
+  overflow: visible;
+  background-color: #333;
+}
+
+.topmenu a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 22px 20px 24px 20px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: visible;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 22px 20px 24px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.topmenu a:hover, .dropdown:hover .dropbtn {
+  color:white
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: visible;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #747474;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
+/*header */
+ 
+/*body index*/
+.background_football{
+  width: 100%;
+  height: 100%;
+}
+
+.body-header{
+  background-image: url('../img/background_football2.jpg');
+            background-size: cover; /* ปรับขนาดภาพให้เต็มพื้นที่ */
+            background-repeat: no-repeat; /* ปิดการทำซ้ำภาพ */
+            background-position: center; /* กำหนดตำแหน่งภาพในพื้นที่ */
+            height: 60vh; /* ทำให้เต็มหน้าจอ */
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 200px;
+}
+
+.button-register{
+          padding: 20px 70px 20px 70px;
+            font-size: 22px;
+            background-color: #000000;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            border: 2px solid #089216;
+            box-shadow: 0 5px 10px 1px #089216;
+}
+.button-register:hover{
+  text-decoration: none;
+  color: #03570b;
+  background-color: #ffffff;
+  border: 2px solid #089216;
+  box-shadow: 0 5px 10px 1px #03570b;
+  
+}
+
+.match-table{
+  padding: 0px 5% 50px 5%;
+  background-color: white;
+  text-decoration: none;
+  margin-bottom:100px ;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.header-table{
+  background-color: #073500;
+}
+
+
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.tablehead, .tabled {
+  border: 1px solid white;
+  text-align: center;
+}
+
+.tablehead {
+  background-color: #0A4700;
+  color: white;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tabled{
+  background-color: #79AF70;
+  color: black;
+  font-weight: 100;
+  font-size: 14px;
+  font-family: kanit,sans-serif;
+}
+
+.fa-caret-up{
+  color:#00ff1a;
+}
+.fa-caret-down{
+  color:red;
+}
+
+
+/* table */
+/*body index*/
+
+/* teded */
+.freeteded-header{
+  color: white;
+  border-left:10px solid #089216;
+  padding-left: 10px;
+}
+
+.body-teded-left{
+  background-color: #D9D9D9;
+  padding: 30px 30px 80px 30px;
+  margin-right: 5px;
+  border-radius: 20px;
+}
+
+.body-teded-right{
+  background-color: #D9D9D9;
+  padding: 20px;
+  margin-left: 5px;
+  border-radius: 20px;
+}
+
+.body-teded{
+  margin:20px 0px 20px 0px;
+}
+
+.select-betting{
+text-align: right;
+}
+
+.purchasebutton{
+  background-color: #ffffff00;
+  border: 5px solid #089216;
+  color: #089216;
+  border-radius: 10px;
+  padding: 3px 20px 3px 20px;
+}
+
+.purchasebutton:hover{
+  background-color: #089216;
+  color: white;
+  border: 5px solid #089216;
+}
+
+.purchasebutton.active{
+  background-color: #089216;
+  color: white;
+  border: 5px solid #089216;
+  cursor: auto;
+}
+
+.tableheadteded th{
+  background-color: #0A4700;
+  color: white;
+  font-size: 14px;
+  padding: 10px 0px 10px 15px;
+}
+
+.tabledteded td{
+  background-color: #EDEDED;
+  padding: 10px 5px 10px 15px;
+  border-bottom: 1px solid #818181;
+  font-size: 14px;
+}
+
+.tablecenter{
+  text-align: center;
+}
+
+td a{
+  color:black;
+  text-decoration: underline;
+}
+td a:hover{
+  color:#0A4700;
+  text-decoration: underline;
+}
+
+.zeananalyticta{
+  resize:none; 
+  border-radius: 10px;
+  border: 0px;
+  background-color: white;
+  padding: 5px;
+  color: #000000;
+}
+
+
+
+/* teded */
+
+
+
+
+
+
+
+
+
+/* footer */
+.columnbuttom{
+  padding: 50px 20% 50px 20%;
+  background-color:#0A4700 ;
+  color: white;
+}
+
+.describtionfooter{
+  padding: 20px 0px 0px 20px;
+  font-size: 22px;
+  font-weight: 100;
+  font-family: kanit,sans-serif;
+}
+
+.footer-head{
+  color:#FFC01F;
+  font-size: 22px;
+  padding-top: 40px;
+}
+
+.footer-link{
+  padding: 10px 0px 10px 0px;
+  font-size: 18px;
+}
+
+.list-style{
+  list-style:none; 
+  margin: 0;          
+  padding: 0;
+}
+
+.list-style,a{
+  color:white;
+}
+
+.list-style,a:hover{
+  color:#FFC01F;
+  text-decoration: none;
+}
+
+/* footer */
+
+
+/* creditpack */
+
+
+.side-creditpack {
+  display: block;
+  padding: 20px 20px 20px 20px;
+  background: #ffffff;
+  border-top: solid 4px #016204;
+  border-bottom: solid 4px #ffac1a;
+  border-radius: 20px;
+  width: 100%;
+}
+.side-creditpack ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.side-creditpack li {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin: 0px 0px 15px 0px;
+  overflow: hidden;
+  background: #efefef;
+  position: relative;
+  border: solid 1px #eaeaea;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  border-radius: 15px 15px 15px 15px;
+  -o-border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  -ms-border-radius: 15px 15px 15px 15px;
+}
+.side-creditpack ul li:last-child {
+  margin: 0;
+}
+.side-creditpack li span.cp-left {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 28px;
+  bottom: 10px;
+  left: 0%;
+  background: #016204;
+  transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+}
+.side-creditpack li:hover span.cp-left {
+  left: -100%;
+  transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+}
+.side-creditpack li span.cp-right {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 100%;
+  overflow: hidden;
+  transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+}
+.side-creditpack li:hover span.cp-right {
+  left: 0%;
+  transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+}
+.side-creditpack li span.cp-left div.h1 {
+  display: block;
+  position: absolute;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 600 !important;
+  font-size: 50px;
+  color: #ffac1a;
+  bottom: 0;
+  left: 15px;
+  z-index: 1;
+}
+.side-creditpack li span.cp-left div.h1 b {
+  display: inline-block;
+  font-family: 'Sarabun', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0px 0px 0px 5px;
+}
+.side-creditpack li span.cp-left .h2 {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  padding: 15px 15px 15px 15px;
+  text-align: right;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 600 !important;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+.side-creditpack li span.cp-right p {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  width: 100%;
+  text-align: right;
+    font-family: 'Sarabun', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #016204;
+}
+.side-creditpack li span.cp-right a {
+  display: block;
+  position: absolute;
+  padding: 5px 10px 5px 10px;
+    font-family: 'Sarabun', sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  bottom: 12px;
+  right: 15px;
+  border: solid 2px #016204;
+  color: #016204;
+  border-radius: 3px 3px 3px 3px;
+  -o-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -ms-border-radius: 3px 3px 3px 3px;
+}
+.side-creditpack li span.cp-right a:hover {
+  background: #016204;
+  color: #ffffff;
+}
+
+
+/* creditpack */
+
+
+/* zean */
+
+.body-zean-left{
+  background-color: #D9D9D9;
+  padding: 30px 30px 80px 30px;
+  border-radius: 20px;
+  margin: 0px 5px 20px 0px
+}
+
+
+.body-zean{
+  margin:20px 0px 20px 0px;
+}
+
+.zeantable{
+  text-align: center;
+  padding: 50px 100px 50px 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.zeantable h1{
+  font-size: 50px;
+  color:black;
+  font-weight: 600;
+}
+
+.tablezean thead tr th{
+  font-size: 26px;
+  border-bottom: 2px solid rgb(37, 37, 37);
+padding: 20px;
+}
+
+.tablezean tbody tr td{
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 2px solid rgb(37, 37, 37);
+  font-weight: 600;
+}
+
+.zeanname{
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.select-time{
+  text-align: right;
+  }
+
+.followbutton{
+  padding:1px 30px 1px 30px;
+  border:3px solid #0A4700;
+  border-radius: 5px;
+  color: #0A4700;
+  background-color: rgba(255, 0, 0, 0);
+  font-weight: 600;
+  width: 90%;
+
+}
+.viewmorebutton{
+  padding:1px 30px 1px 30px;
+  border:3px solid #000000;
+  border-radius: 5px;
+  color: #000000;
+  background-color: rgba(255, 0, 0, 0);
+  font-weight: 600;
+  width: 90%;
+}
+
+.tableleaderboard thead tr th{
+  background-color: #0A4700;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.tableleaderboard tbody tr td{
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  border-bottom: 2px solid rgb(37, 37, 37);
+  text-align: center;
+}
+
+.body-zean-left2{
+  background-color: #ffffff;
+  padding: 30px 30px 80px 30px;
+  border-radius: 20px;
+  margin: 0px 5px 20px 0px
+}
+/* zean */
+
+/* zeaninfo */
+.body-zeaninfo{
+  background-color: #D9D9D9;
+  padding: 30px 40px 30px 40px;
+  border-radius: 20px;
+  margin: 0px 5px 20px 0px
+}
+
+.zeaninfoname{
+  width: 30%;
+}
+
+.followzeanbutton{
+  padding:0px 100px 0px 100px;
+  border:3px solid #107a00;
+  border-radius: 5px;
+  color: #107a00;
+  background-color: rgba(255, 0, 0, 0);
+  font-weight: 600;
+  font-size: 18px;
+}
+.zeaninfoname p{
+  font-size: 22px;
+}
+
+.zeaninfoname h2{
+  font-weight: 600;
+}
+
+.zeaninfodata{
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.zeaninfo-follower{
+  padding: 20px;
+  width: 33%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+.zeaninfo-follower p{
+font-weight: 100;
+font-size: 16px;
+}
+
+.zeaninfo-bettingtips{
+  padding: 20px;
+  width: 33%;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.zeaninfo-bettingtips p{
+  font-weight: 100;
+  font-size: 16px;
+  }
+
+.zeaninfo-profits{
+  padding: 20px;
+  width: 33%;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  color: #16a800;
+}
+
+.zeaninfo-profits p{
+  font-weight: 100;
+  font-size: 16px;
+  color: #000000;
+  }
+
+  .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+.tab{
+  background-color: #089216;
+}
+
+.tablinks{
+  color: white;
+  font-weight: 600;
+}
+
+.tabcontent{
+  background-color: white;
+  padding:20px;
+  margin-top:15px;
+  border-radius: 10px;
+}
+
+.tab button.active {
+  background-color: #FFBE15;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.tab button:hover{
+  background-color: #FFBE15;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.tabcontent h3{
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.runningtips thead tr th{
+  background-color: #089216;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.runningtips tbody tr td{
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  border-bottom: 3px solid #D9D9D9;
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.purchasebundle{
+  padding:1px 30px 1px 30px;
+  border:3px solid #0A4700;
+  border-radius: 5px;
+  color: #0A4700;
+  background-color: rgba(255, 0, 0, 0);
+  font-weight: 600;
+}
+
+.body-zeaninfo h1{
+  font-weight: 600;
+  color: #000000;
+  font-size: 36px;
+}
+
+.historyzean thead tr th{
+  background-color: #089216;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.historyzean tbody tr td{
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  border-bottom: 3px solid #D9D9D9;
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+/* zeaninfo */
+
+
+/* login */
+
+/* Full-width input fields */
+input[type=text], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+button[type=submit]{
+  background-color: #0A4700;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.psw a{
+  color: rgb(129, 0, 0);
+}
+.psw a:hover{
+  color: #0A4700;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 0% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/* login */
+
+
+/* card */
+
+.bodyregister{
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.bodyregister h2{
+  font-weight: 600;
+  text-align: center;
+}
+.cardregis{
+  padding: 20px 10% 20px 10%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.regis-freeteded{
+  background-color: #0A4700;
+width: 33%;
+padding: 50px 30px 50px 50px;
+  color: white;
+  font-size: 22px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.regis-freeteded strong{
+  color:yellow;
+}
+
+.regis-premiumteded strong{
+  color:yellow;
+}
+
+.regis-bundteded{
+  background-color: #101010;
+width: 33%;
+padding: 50px 30px 50px 50px;
+  color: white;
+  font-size: 22px;
+}
+.regis-premiumteded{
+  background-color: #0A4700;
+width: 33%;
+padding: 50px 30px 50px 50px;
+  color: white;
+  font-size: 22px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.signin a{
+  color: rgb(129, 0, 0);
+}
+.signin a:hover{
+  color: #0A4700;
+}
+
+
+
+/* Full-width input fields */
+input[id=name],select[id=bank],input[id=birthdate],input[id=email],input[id=phone],input[id=lineid],select[id=gender]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* card */
+
+
+/* zeanmain */
+
+.body-zeanprofile{
+  background-color: #ffffff;
+  padding: 30px 40px 30px 40px;
+  border-radius: 20px;
+  margin: 0px 5px 20px 0px;
+  text-align: center;
+  
+}
+.body-zeanprofile h2{
+  padding-top: 20px;
+  font-weight: 600;
+}
+.body-zeanprofile span{
+  font-size: 18px;
+}
+.creditfollow{
+  display: flex;
+  justify-content: center;
+
+}
+.creditfollowdetail{
+  width: 50%;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.credit span{
+  font-size: 10px;
+}
+
+.credit {
+  padding: 5px;
+  font-size: 10px;
+}
+
+.credit p{
+  font-size: 16px;
+  font-weight: 600;
+}
+.creditfollowdetail svg{
+  padding-top: 10px;
+}
+
+.tipwinprofit{
+  display: flex;
+  justify-content: center;
+}
+.tipwinprofit div{
+  padding: 0px 20px 0px 20px;
+}
+
+.tipwinprofitdetail{
+  font-weight: 600;
+}
+
+.tipwinprofitdetail span{
+  color: #686868;
+}
+
+.menuzean div{
+  padding: 20px 8% 20px 8%;
+  font-size: 12px;
+}
+
+.menuzean p{
+  padding-top: 10px;
+}
+
+.body-zeanmain{
+  background-color: #ffffff;
+  padding: 50px 40px 60px 40px;
+  border-radius: 20px;
+  margin: 0px 5px 20px 0px
+}
+
+.body-zeanmain input[id=biosummary],input[id=performance]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid rgb(138, 138, 138);
+  border-radius: 10px;
+
+}
+
+.body-zeanmain input[type=submit]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #089216;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+/* zeanmain */
+
+/* zeanteded */
+.body-zeanmain select[id=team1],select[id=team2],select[id=bettingtype],input[id=bettingprice],input[id=oddprice],input[id=price],textarea[id=analytic]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* zeanteded */

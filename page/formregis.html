@@ -1,0 +1,63 @@
+
+<div class="columnhead">
+    <h2 class="freeteded-header">FORM REGISTER</h2>
+    <div class="bodyregister">
+        <form action="/action_page.php">
+            <div class="container">
+              <h1>PERSONAL INFORMATION</h1>
+              <p>Please fill in this form to create an account.</p>
+              <hr>
+          
+              <label for="name"><b>NAME : </b></label>
+              <input type="text" placeholder="Enter Name" name="name" id="name" required>
+          
+              <label for="lastname"><b>LASTNAME : </b></label>
+              <input type="text" placeholder="Enter Lastname" name="lastname" id="lastname" required>
+
+              <label for="bank"><b>บัญชีธนาคาร (ชื่อต้องตรงกับบัญชี) : </b></label>
+              <select name="bank" id="bank">
+                <option value="#">----- เลือกบัญชีธนาคาร -----</option>
+                <option value="#">ธนาคารกสิกรไทย</option>
+                <option value="#">ธนาคารทหารไทย</option>
+                <option value="#">ธนาคารกรุงเทพ</option>
+              </select>
+
+              <label for="banknum"><b>เลขบัญชี :</b></label>
+              <input type="text" placeholder="กรอกเลขบัญชี" name="banknum" id="banknum" required>
+
+              <label for="birthdate"><b>DATE OF BIRTH :</b></label>
+              <input type="date" name="birthdate" id="birthdate" required>
+
+              <label for="email"><b>EMAIL :</b></label>
+              <input type="email" placeholder="Enter Email" name="email" id="email" required>
+
+              <label for="phone"><b>MOBILE NO :</b></label>
+              <input type="tel" placeholder="Enter Mobile number" name="phone" id="phone" required>
+
+              <label for="lineid"><b>LINE ID :</b></label>
+              <input type="text" placeholder="Enter Line ID" name="lineid" id="lineid" required>
+
+              <label for="gender"><b>GENDER :</b></label>
+              <select name="gender" id="gender">
+                <option value="#">----- เลือกเพศ -----</option>
+                <option value="#">ชาย</option>
+                <option value="#">หญิง</option>
+              </select>
+
+                <h1 style="padding-top: 50px;">ACCOUNT INFORMATION</h1>
+                <label for="psw"><b>Password :</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password :</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+              <hr>
+          
+              <button type="submit" class="registerbtn">Register</button>
+            </div>
+            
+            <div class="container signin">
+              <p>Already have an account? <a href="#">Sign in</a>.</p>
+            </div>
+          </form>
+    </div>
+</div>
